@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./src/img/pattern-background-desktop.svg');
+    background-color: rgb(237, 239, 245);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container {
+    background-color: whitesmoke;
+    width: 30vw;
+    /*height: 75vh;*/
+    min-width: 400px; 
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container .hero img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.container .view-limit {
+    padding: 3rem;
+}
+
+h1.title {
+    color: rgb(41, 36, 36);
+    font-size: 1.65rem;
+    margin-bottom: 1rem;
+}
+
+.view-limit p {
+    color: rgb(102, 101, 101);
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.annual-plan {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(237, 239, 245);
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+}
+
+.button {
+    background-color: rgb(49, 46, 226);
+    color: whitesmoke;
+    font-size: .85rem;
+    font-weight: 600;
+    width: 100%;
+    padding: .85rem;
+    border: none;    
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.view-limit > span {
+    font-size: .85rem;
+    font-weight: 600;
+    color: rgb(102, 101, 101);
+    margin-bottom: 3rem; 
+}
+ /*
+/* Feel free to remove these styles or customise in your own stylesheet 👍 */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
