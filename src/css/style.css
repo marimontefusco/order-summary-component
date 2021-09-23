@@ -12,6 +12,9 @@
 --Very-pale-blue: hsl(225, 100%, 98%);
 --Desaturated-blue: hsl(224, 23%, 55%);
 --Dark-blue: hsl(223, 47%, 23%);
+
+/* Active States Colors*/
+--Active-bright-blue: hsl(245, 67%, 66%);
 }
 
 body {
@@ -92,6 +95,12 @@ h1.title {
     font-size: .9rem;
 }
 
+.annual-plan > a:hover {
+    cursor: pointer;
+    color: var(--Active-bright-blue);
+    text-decoration: none;
+}
+
 .button {
     background-color: var(--Bright-blue);
     color: whitesmoke;
@@ -105,11 +114,21 @@ h1.title {
     margin-bottom: 1.5rem;
 }
 
+.button:hover {
+    cursor: pointer;
+    background-color: var(--Active-bright-blue);
+}
+
 .view-limit > span {
     font-size: .85rem;
     font-weight: 700;
     color: var(--Desaturated-blue);/*rgb(102, 101, 101)*/
     margin-bottom: 3rem; 
+}
+
+.view-limit > span:hover {
+    cursor: pointer;
+    color: var(--Dark-blue);
 }
 
 /* Feel free to remove these styles or customise in your own stylesheet 👍 */
